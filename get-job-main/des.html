@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <style>
+         .r1
+         {
+          margin: 20px 400px 10px 90px;
+          width: 50%
+         }
+         a{
+        text-decoration: none;
+
+           }
+         p{
+        font-size: 95%
+          }
+          h3 , h6{
+        display: inline;
+      }
+       h6{
+        font-family: Cursive;
+        font-size: 90%;
+       
+      }
+       
+     </style>
+    </head>
+    <body>
+        <div class="r1">
+        <h3><?php echo $row['c_name'];?></h3>
+          <p class="r2"><?php echo $row['city'];?> </p>
+          <p class="r3"><?php echo $row['c_details'];?></p>
+        for contact: <a href="#"><?php echo $row['c_mail'];?></a>
+          <hr>
+       </div>
+    </body>
+</html>
